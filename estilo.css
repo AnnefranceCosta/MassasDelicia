@@ -1,0 +1,348 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{
+    background-color: #ffffe6;
+}
+
+/*Configurando o menu*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4d4d4d;
+  }
+  
+  li {
+    float: left;
+    font-size: 20px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ 
+a:hover{
+    border-radius: 3px;
+    background-color: #ff1a1a;
+    color: white;
+}
+
+/*Configurando Home*/
+
+#div-principal{
+    border: 0px inset #cccccc;
+    background-color: #ffffe6;
+    width: 80%;
+    height: 100%;
+    float: center;
+}
+
+#div1{
+    float: center;
+    width: 50%;
+    background-color: #ffffe6*;
+    font-size: 100px;
+    font-style: oblique;
+}
+
+.delicia{
+    color:#ff1a1a;
+}
+
+#img-macarrao{
+    width: 100%;
+    height: 400px;
+    float: center;
+    border-radius: 15px;
+    border: 2px inset #ff1a1a;
+}
+
+
+.div-Esq{
+    width: 50%;
+    height: 400px;
+    background-color: transparent;
+    border-right: 0.5px solid gray;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.div-Dir{
+    width: 49.5%;
+    height: 400px;
+    background-color: transparent;
+    float: right;
+    margin-left: 0.5px solid gray;
+    margin-bottom: 40px;
+}
+
+.subtitulos{
+    font-size: 40px;
+    font-style: italic;
+    margin-left: 110px;
+    color: black;
+    align:center;
+}
+
+#imagem-servicos{
+    width: 60%;
+    height: 230px;
+    margin-left: 100px;
+    border: 2px inset #ff1a1a;
+    border-radius: 5px;
+}
+
+.text-espaco{
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+#div-servicos{
+    background-color: transparent;
+    width: 100%;
+    height: 405px;
+}
+
+/*Sessão Massas*/
+
+.massas-titulo{
+    font-size: 80px;
+    font-style: italic;
+    font-family: unset;
+    text-align: center;
+    color: #1a0000;
+}
+
+.massas{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-color:#fff2e6;
+    margin-bottom: 30px;
+}
+
+.img-massaEsq{
+    float: left;
+    width: 30%;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px inset #ff1a1a;
+}
+
+.img-massaDir{
+    float: right;
+    width: 30%;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px inset #ff1a1a;
+}
+
+.titulos-massas{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    font-style: italic;
+}
+
+/*Configurando molhos e acompanhamentos*/
+
+.molhos-acompanhamentos{
+    font-size: 65px;
+    font-style: italic;
+    font-family: unset;
+    text-align: center;
+    color: #1a0000;
+}
+
+#espaco-molhos-acompanhamentos{
+    width: 100%;
+    height: 600px;
+    background-color: brown;
+    margin-bottom: 30px;
+}
+
+#img-molho-vermelho{
+    width: 80%;
+    height: 200px;
+    float: center;
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 30%;
+    border: 2px inset #ff1a1a;
+}
+
+.molho{
+    font-size: 40px;
+    font-style: italic;
+    margin-left: 70px;
+    color: rgb(143, 49, 49);
+    text-align: center;
+}
+
+.img-molhos{
+    width: 60%;
+    height: 230px;
+    margin-left: 100px;
+    border: 2px inset #ff1a1a;
+    border-radius: 50%;
+}
+
+/*Configurando acompanhamentos*/
+
+#acompanhamentos{
+    width: 100%;
+    height: 400px;
+    background-color: transparent;
+    margin-bottom: 20px;
+    border-bottom: 0.5px solid gray ;
+}
+
+#vinho{
+    width: 50%;
+    height: 250px;
+    border: 2px inset #ff1a1a;
+    border-radius: 50%;
+    margin-left: 260px;
+}
+
+/*Configurando quem somos */
+#quem-somos{
+    width: 100%;
+    height: 410px;
+    background-color: transparent;
+    margin-bottom: 40px;
+}
+
+#quem-somos1{
+    width: 33%;
+    height: 300px;
+    background-color: transparent;
+    border-right: 0.5px solid gray;
+    float: left;
+}
+
+#quem-somos2{
+    width: 33%;
+    height: 300px;
+    background-color: transparent;
+    border-right: 0.5px solid gray;
+    float: center;
+}
+
+#quem-somos3{
+    width: 33%;
+    height: 300px;
+    background-color:transparent;
+    float: right;
+}
+
+.sobre-nos{
+    font-size: 60px;
+    font-style: italic;
+    margin-left: 70px;
+    color: rgb(143, 49, 49);
+    text-align: center;
+}
+
+.titulo-somos{
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 70px;
+    color: rgb(143, 49, 49);
+    text-align: center;
+}
+
+.P-somos{
+    font-size: 18px;
+    font-style: italic;
+    margin: 15px 10px;
+    text-align: center;
+}
+
+.siga{
+    width: 40%;
+    height: 100px;
+    margin-left: 130px;
+}
+
+/*Configurando rodapé*/
+
+#rodape{
+    width: 100%;
+    height: 200px;
+    background-color: #4d4d4d;
+}
+
+#rodape1{
+    width: 30%;
+    height: 200px;
+    background-color: transparent;
+    float: left;
+}
+#rodape2{
+    width: 40%;
+    height: 200px;
+    background-color: transparent;
+    float: center;
+}
+#rodape3{
+    width: 40%;
+    height: 200px;
+    background-color: transparent;
+    float: right;
+}
+
+.titulo-rodape{
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+.img-pagamento1{
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+}
+
+.img-pagamento2{
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+}
+
+.img-pagamento3{
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+}
+
+.img-seguro{
+    width: 120px;
+    height: 120px;
+    margin-left: 150px;
+}
+
+.mapa{
+    width: 80%;
+    height: 145px;
+    float:center;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.text-rodape{
+    margin-left: 20px;
+    text-align: center;
+    color:white;
+}
+
